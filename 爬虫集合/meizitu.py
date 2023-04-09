@@ -47,6 +47,7 @@ def get_pic(link, text):
 
 def create_dir(name):
     if not os.path.exists(name):
+        # makedir vs makedirs . make -p
         os.makedirs(name)
 
 
